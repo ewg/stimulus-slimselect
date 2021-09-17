@@ -1,2 +1,2 @@
-import{Controller as e}from"stimulus";import s from"slim-select";export default class extends e{connect(){this.slimselect=new s({select:this.element})}disconnect(){this.slimselect.destroy()}}
+import{Controller as t}from"stimulus";import e from"slim-select";function s(){return(s=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var s=arguments[e];for(var n in s)Object.prototype.hasOwnProperty.call(s,n)&&(t[n]=s[n])}return t}).apply(this,arguments)}class n extends t{connect(){this.slimselect=new e(s({select:this.element},this.optionsValue))}disconnect(){this.slimselect.destroy()}}n.values={options:Object};export default n;
 //# sourceMappingURL=stimulus-slimselect.modern.js.map
